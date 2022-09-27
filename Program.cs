@@ -12,10 +12,51 @@ namespace Lecture_2_F22_In_Class
         {
             // ReadLineExample();
             // IntAndMathExamples();
-            // Parse
 
 
         } // Main
+
+        public static void ParseExample()
+        {
+
+            // Parse
+            // Asking a user for a number
+            try
+            {
+                Console.Write("Enter your first number: ");
+                // Saving the users input
+                string userNum1 = Console.ReadLine();
+                // Trying to parse ( convert ) users input into a number
+                int num1 = int.Parse(userNum1);
+                Console.WriteLine();
+                Console.Write("Enter your first number: ");
+                string userNum2 = Console.ReadLine();
+                int num2 = int.Parse(userNum2);
+
+                int total = num1 + num2;
+
+                Console.WriteLine($"The sum of {num1} + {num2} = {total}");
+
+
+            }
+            catch
+            {
+                Console.WriteLine("You entered in an invalid number");
+            }
+
+
+            Console.ReadKey();
+
+            //Console.WriteLine(num1 + num1);
+            //Console.WriteLine(userNum1 + num1);
+
+
+
+            // Advanced Mathy Stuff
+            //Console.WriteLine((char)('a' - ' '));
+
+
+        } // ParseExample()
 
         public static void ReadLineExample()
         {

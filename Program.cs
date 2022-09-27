@@ -10,7 +10,10 @@ namespace Lecture_2_F22_In_Class
     {
         static void Main(string[] args)
         {
-
+            // ReadLine
+            // Parse
+            // Ints
+            // Math Operators
         }
     }
 }

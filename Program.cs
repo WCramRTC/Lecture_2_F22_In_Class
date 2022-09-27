@@ -13,7 +13,8 @@ namespace Lecture_2_F22_In_Class
             // ReadLineExample();
             // IntAndMathExamples();
 
-
+            uint exampleNum = 2147483648;
+            Console.WriteLine(exampleNum);
         } // Main
 
         public static void ParseExample()
